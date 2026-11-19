@@ -1,10 +1,11 @@
+//3. Write a C program to implement a queue using arrays and simulate a printer spooling system
 #include <stdio.h>
 #define MAX 5
 
 char q[MAX][20];
 int front = -1, rear = -1;
 
-void add()
+void enqueue()
 {
     if (rear == MAX - 1)
         printf("Queue Full\n");
@@ -16,7 +17,7 @@ void add()
     }
 }
 
-void print()
+void dequeue()
 {
     if (front == -1)
         printf("Queue Empty\n");
@@ -46,8 +47,8 @@ int main()
         scanf("%d", &ch);
 
         switch (ch) {
-            case 1: add(); break;
-            case 2: print(); break;
+            case 1: enqueue(); break;
+            case 2: dequeue(); break;
             case 3: display(); break;
             case 4: printf("Exiting...\n"); break;
             default: printf("Invalid choice\n");

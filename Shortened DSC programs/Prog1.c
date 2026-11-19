@@ -1,3 +1,4 @@
+//1. Write a C program to implement a stack using arrays and perform the conversion of an infix expression to postfix expression.
 #include <stdio.h>
 #include <ctype.h>
 #define MAX 100

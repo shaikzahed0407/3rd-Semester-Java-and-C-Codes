@@ -2,6 +2,13 @@
   "version": "0.2.0",
   "configurations": [
     {
+      "type": "java",
+      "name": "Javaprog1",
+      "request": "launch",
+      "mainClass": "Javaprog1",
+      "projectName": "3rd-Semester-Java-and-C-Codes_ab4db6"
+    },
+    {
       "name": "C/C++ Runner: Debug Session",
       "type": "cppdbg",
       "request": "launch",
